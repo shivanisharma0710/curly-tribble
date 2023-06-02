@@ -34,4 +34,5 @@ int main()
     printf("the triangle is a valid\n");
     else
     printf("the triangle is invalid\n");
+    
 }
