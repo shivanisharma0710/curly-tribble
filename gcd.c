@@ -9,6 +9,7 @@ int main()
     scanf("%d", &b);
     printf("Greatest Common Divisor of (%d, %d): %d",a,b,gcd(a,b));
 }
+
 int gcd(int a, int b)
 {
     int t;
