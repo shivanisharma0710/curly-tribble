@@ -7,11 +7,11 @@ float factorial(int p);
 int main()
 {
     float x;
-    float res = 0, d;
+    float res = 1, d;
     printf("Enter the value of x: ");
     scanf("%f", &x);
 
-    for (int i = 1; i <= 10; i++)
+    for (int i = 2; i <= 10; i++)
     {
         d = power(x, 2 * i) / factorial(2 * i);
         if (i % 2 != 0)
